@@ -98,3 +98,75 @@ main{
     grid-row-start: 2;
     
 }
+
+.first-day-julio{
+    grid-column-start: 5;
+}
+
+.main__section-julio{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 3; 
+    grid-row-start: 2;
+    
+}
+
+.first-day-agosto{
+    grid-column-start: 1;
+}
+
+.main__section-agosto{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 4; 
+    grid-row-start: 2;
+    
+}
+
+.first-day-septiembre{
+    grid-column-start: 4;
+}
+
+.main__section-septiembre{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 1; 
+    grid-row-start: 3;
+    
+}
+
+.first-day-octubre{
+    grid-column-start: 6;
+}
+
+.main__section-octubre{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 2; 
+    grid-row-start: 3;
+    
+}
+
+.first-day-noviembre{
+    grid-column-start: 2;
+}
+
+.main__section-noviembre{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 3; 
+    grid-row-start: 3;
+    
+}
+
+.first-day-diciembre{
+    grid-column-start: 4;
+}
+
+.main__section-diciembre{
+    width: 450px;
+    border-style: solid;
+    grid-column-start: 4; 
+    grid-row-start: 3;
+    
+}
