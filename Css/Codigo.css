@@ -1,13 +1,19 @@
 body{
     text-align: center;
-    padding: 0%;
+    padding: 1% 0% 13.4% 0%;
     margin: 0%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/721/178/532/numbers-texture-rust-colorful-wallpaper-preview.jpg");
+    backdrop-filter: blur(4px)
 }
 
 
 h1{
     text-align: center;
-    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.534);
+    font-family: 'Lobster', cursive;
+    font-size: 320%;
+    color: rgb(0, 0, 0);
+    border-style: solid;
 }
 
 
@@ -16,21 +22,26 @@ h1{
     grid-template-columns: repeat(7, 1fr);
     list-style: none;
     font-family: fantasy;
-    font-size: 12px; 
+    font-size: 10px; 
     text-align: center ;
     padding: 0%;
-    background-color: rgba(0, 255, 242, 0.342);
+    background-color: rgba(0, 162, 255, 0.342);
 
 }
 
 .main__section-enero{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;   
+    margin-bottom: 2%;
+    background-color: aliceblue;   
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 h2{
     text-align: center;
+    background-color: rgba(255, 166, 0, 0.459);
+    margin: 0% 20% 0% 35%;
+    border-radius: 20%;
 }
 
 ol{
@@ -52,9 +63,11 @@ main{
 }
 
 .main__section-febrero{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;   
+    margin-bottom: 2%;
+    background-color: aliceblue;  
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);   
 }
 
 .first-day-enero{
@@ -70,9 +83,11 @@ main{
 }
 
 .main__section-marzo{
-    width: 450px;
+    width: 400px;
     border-style: solid; 
-    margin-bottom: 2%;   
+    margin-bottom: 2%;
+    background-color: aliceblue;    
+    box-shadow: 2px 2px 5px rgb(0, 0, 0); 
 }
 
 .first-day-abril{
@@ -80,9 +95,11 @@ main{
 }
 
 .main__section-abril{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;   
+    margin-bottom: 2%;
+    background-color: aliceblue; 
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);    
 }
 
 .first-day-mayo{
@@ -90,9 +107,11 @@ main{
 }
 
 .main__section-mayo{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;   
+    margin-bottom: 2%;
+    background-color: aliceblue;   
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);  
 }
 
 .first-day-junio{
@@ -100,9 +119,11 @@ main{
 }
 
 .main__section-junio{
-    width: 450px;
+    width: 400px;
     border-style: solid; 
-    margin-bottom: 2%;     
+    margin-bottom: 2%;
+    background-color: aliceblue; 
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);      
 }
 
 .first-day-julio{
@@ -110,9 +131,11 @@ main{
 }
 
 .main__section-julio{
-    width: 450px;
+    width: 400px;
     border-style: solid;  
-    margin-bottom: 2%;    
+    margin-bottom: 2%; 
+    background-color: aliceblue;   
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);  
 }
 
 .first-day-agosto{
@@ -120,9 +143,11 @@ main{
 }
 
 .main__section-agosto{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;     
+    margin-bottom: 2%;  
+    background-color: aliceblue; 
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);    
 }
 
 .first-day-septiembre{
@@ -130,9 +155,11 @@ main{
 }
 
 .main__section-septiembre{
-    width: 450px;
+    width: 400px;
     border-style: solid; 
-    margin-bottom: 2%;   
+    margin-bottom: 2%;  
+    background-color: aliceblue;   
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 .first-day-octubre{
@@ -140,9 +167,11 @@ main{
 }
 
 .main__section-octubre{
-    width: 450px;
+    width: 400px;
     border-style: solid; 
-    margin-bottom: 2%;    
+    margin-bottom: 2%;  
+    background-color: aliceblue;    
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 .first-day-noviembre{
@@ -150,9 +179,11 @@ main{
 }
 
 .main__section-noviembre{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;       
+    margin-bottom: 2%;
+    background-color: aliceblue;  
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);       
 }
 
 .first-day-diciembre{
@@ -160,49 +191,50 @@ main{
 }
 
 .main__section-diciembre{
-    width: 450px;
+    width: 400px;
     border-style: solid;
-    margin-bottom: 2%;   
+    margin-bottom: 2%;  
+    background-color: aliceblue;  
+    box-shadow: 2px 2px 5px rgb(0, 0, 0); 
  
 }
 
 @media only screen and (max-width:1200px){
     main{
         grid-template-columns: repeat(2, 1fr);
-        padding: 5%;
+        padding: 12%;
         margin: 0%;
-    }
-    body{
-        background-color: pink;
     }
 }
 
 @media only screen and (max-width:992px){
     main{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    body{
-        background-color: rgb(255, 251, 0);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 5%;
+        margin: 0%;
     }
 }
 
 @media only screen and (max-width:768px){
     main{
+        padding: 0% 25% 0% 25%;
+        margin: 0%;
         grid-template-columns: repeat(1, 1fr);
-    }
-    body{
-        background-color: rgb(13, 103, 221);
     }
 }
 
-
-@media only screen and (max-width:600px){
+@media only screen and (max-width:550px){
     main{
         grid-template-columns: repeat(1, 1fr);
+        padding: 12%;
+        margin: 0%;
     }
-    body{
-        background-color: rgb(145, 255, 0);
+}    
+
+@media only screen and (max-width:414px){
+    main{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1%;
+        margin: 0%;
     }
 }
-    
-    
